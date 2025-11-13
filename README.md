@@ -28,25 +28,25 @@ Get organized reports grouped by repository.
 
 Scan an organization:
 
-## Scan all repositories with prefix "terraform-"
+**Scan all repositories with prefix "terraform-**
 
 `issuor --org cloudnationhq --prefix terraform-`
 
-## Only show external contributions
+**Only show external contributions**
 
 `issuor --org cloudnationhq --prefix terraform- --audience external`
 
-## Only show issues (skip PRs)
+**Only show issues (skip PRs)**
 
 `issuor --org cloudnationhq --prefix terraform- --prs=false`
 
-## Enable debug output
+**Enable debug output**
 
 `issuor --org cloudnationhq --prefix terraform- --debug`
 
 ## Features
 
-`Organization Scanning`
+**Organization Scanning**
 
 Searches all repositories matching a prefix pattern.
 
@@ -56,7 +56,7 @@ Groups results by repository for easy navigation.
 
 Shows creation dates and author information.
 
-`Author Filtering`
+**Author Filtering**
 
 Distinguishes internal (members/collaborators) from external contributors.
 
@@ -64,19 +64,9 @@ Filter by audience: all, internal, or external.
 
 Skip specific users (bots, automated accounts).
 
-`Clean Output`
-
-Formatted tables with repository grouping.
-
-Bold headers for easy scanning.
-
-Age formatting (days, weeks, months, years).
-
-Summary statistics at the end.
-
 ## Configuration
 
-`Command-Line Flags`
+**Command-Line Flags**
 
 `--org`: GitHub organization to scan (required).
 
