@@ -25,31 +25,22 @@ Get organized reports grouped by repository.
 ## Installation
 
 `go install github.com/dkooll/issuor@latest`
-```
-
-## Usage
-
-Set your GitHub token:
-
-```bash
-export GITHUB_TOKEN="your_github_token"
-```
 
 Scan an organization:
 
-# Scan all repositories with prefix "terraform-"
+## Scan all repositories with prefix "terraform-"
 
 `issuor --org cloudnationhq --prefix terraform-`
 
-# Only show external contributions
+## Only show external contributions
 
 `issuor --org cloudnationhq --prefix terraform- --audience external`
 
-# Only show issues (skip PRs)
+## Only show issues (skip PRs)
 
 `issuor --org cloudnationhq --prefix terraform- --prs=false`
 
-# Enable debug output
+## Enable debug output
 
 `issuor --org cloudnationhq --prefix terraform- --debug`
 
@@ -114,8 +105,10 @@ Issuor requires a GitHub personal access token with appropriate permissions:
 Go to github Settings → developer settings → personal access tokens
 
 Generate a new token with these scopes:
-   - `repo` (Full control of private repositories)
-   - `read:org` (Read org and team membership)
+
+`repo` (Full control of private repositories)
+
+`read:org` (Read org and team membership)
 
 Export the token: `export GITHUB_TOKEN="your_token"`
 
