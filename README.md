@@ -1,4 +1,4 @@
-# issuor [![Go Reference](https://pkg.go.dev/badge/github.com/dkooll/issuor.svg)](https://pkg.go.dev/github.com/dkooll/issuor)
+# issuor
 
 Issuor scans github organizations for open issues and pull requests, helping teams track external contributions and internal activity across multiple repositories.
 
