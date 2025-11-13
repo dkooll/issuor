@@ -112,11 +112,17 @@ Go to github Settings → developer settings → personal access tokens
 
 Generate a new token with these scopes:
 
-`repo` (Full control of private repositories)
+**repo**
 
-`read:org` (Read org and team membership)
+(Full control of private repositories)
 
-Export the token: `export GITHUB_TOKEN="your_token"`
+**read:org**
+
+(Read org and team membership)
+
+**Export the token**
+
+`export GITHUB_TOKEN="your_token"`
 
 ## Contributors
 
