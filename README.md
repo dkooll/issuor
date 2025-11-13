@@ -68,23 +68,39 @@ Skip specific users (bots, automated accounts).
 
 **Command-Line Flags**
 
-`--org`: GitHub organization to scan (required).
+***--org***
 
-`--prefix`: Repository name prefix to match (required).
+GitHub organization to scan (required).
 
-`--audience`: Authors to include: all|internal|external (default: all).
+**--prefix**
 
-`--skip`: Comma-separated usernames to skip (default: github-actions[bot],dependabot[bot],release-please[bot]).
+Repository name prefix to match (required).
 
-`--issues`: Include issues in the report (default: true).
+**--audience**
 
-`--prs`: Include pull requests in the report (default: true).
+Authors to include: all|internal|external (default: all).
 
-`--debug`: Enable verbose diagnostics (default: false).
+**--skip**
 
-`Environment Variables`
+Comma-separated usernames to skip (default: github-actions[bot],dependabot[bot],release-please[bot]).
 
-`GITHUB_TOKEN`: GitHub personal access token (required).
+**--issues**
+
+Include issues in the report (default: true).
+
+**--prs**
+
+Include pull requests in the report (default: true).
+
+**--debug**
+
+Enable verbose diagnostics (default: false).
+
+**Environment Variables**
+
+**GITHUB_TOKEN**
+
+GitHub personal access token (required).
 
 Token needs `repo` and `read:org` scopes for full access.
 
